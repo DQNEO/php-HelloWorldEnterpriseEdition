@@ -1,5 +1,6 @@
 <?php
-namespace DQNEO\HelloWorld;
+namespace DQNEO\HelloWorld\Writer;
+use DQNEO\HelloWorld\String;
 
 interface WriterInterface
 {
