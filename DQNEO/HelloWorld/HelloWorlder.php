@@ -3,15 +3,7 @@ namespace DQNEO\HelloWorld;
 
 class HelloWorlder
 {
-
     private $string;
-
-    public static function main()
-    {
-        $string = new String("hello world\n");
-        $obj = new static($string);
-        $obj->output();
-    }
 
     public function __construct(String $string)
     {
