@@ -5,6 +5,8 @@ class String
 {
     private $value;
 
+    const EOL = "\n";
+
     public function __construct($value)
     {
         $this->value = $value;

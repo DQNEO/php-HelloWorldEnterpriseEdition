@@ -7,7 +7,7 @@ class Writer
 
     public function __construct()
     {
-        $this->eol = new String("\n");
+        $this->eol = new String(String::EOL);
     }
 
     public function write(String $string)
