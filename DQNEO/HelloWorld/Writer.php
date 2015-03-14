@@ -7,4 +7,10 @@ class Writer
     {
         echo $string->getValue();
     }
+
+    public function writeLn(String $string)
+    {
+        $this->write($string);
+        echo "\n";
+    }
 }

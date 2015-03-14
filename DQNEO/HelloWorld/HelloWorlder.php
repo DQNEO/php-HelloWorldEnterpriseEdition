@@ -14,7 +14,7 @@ class HelloWorlder
 
     public function output()
     {
-        $this->writer->write($this->string);
+        $this->writer->writeLn($this->string);
     }
 }
 

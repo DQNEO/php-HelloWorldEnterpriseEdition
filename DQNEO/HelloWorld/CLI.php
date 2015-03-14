@@ -5,7 +5,7 @@ class CLI
 {
     public static function main()
     {
-        $string = new String("hello world\n");
+        $string = new String("hello world");
         $writer = new Writer();
         $obj = new HelloWorlder($string, $writer);
         $obj->output();
