@@ -4,7 +4,7 @@
 
 # Supports
 
-* php 5.4~
+* php 5.4 or later
 * HHVM
 
 # How to test
