@@ -2,6 +2,11 @@
 
 [![Build Status](https://travis-ci.org/DQNEO/php-HelloWorldEnterpriseEdition.svg?branch=master)](https://travis-ci.org/DQNEO/php-HelloWorldEnterpriseEdition)
 
+# Supports
+
+* php 5.4~
+* HHVM
+
 # How to test
 
 ```
