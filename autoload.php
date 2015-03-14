@@ -1,6 +1,6 @@
 <?php
 
-function simpleClassLoader($c) {
+spl_autoload_register(function ($c) {
     $lastSlash = strrpos($c, '\\');
     if (false !== $lastSlash) {
         $lastSlash++;
@@ -11,6 +11,5 @@ function simpleClassLoader($c) {
         $path = strtr($c, '_', '/');
     }
     @include_once $path . '.php';
-}
+});
 
-spl_autoload_register('simpleClassLoader');
