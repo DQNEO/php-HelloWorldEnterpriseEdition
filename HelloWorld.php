@@ -8,18 +8,35 @@ class HelloWorld
 
     public static function main()
     {
-        $string = "hello world\n";
+        $string = new String("hello world\n");
         $obj = new static($string);
         $obj->output();
     }
 
-    public function __construct($string = null)
+    public function __construct(String $string)
     {
         $this->string = $string;
     }
 
     public function output()
     {
-        echo $this->string;
+        echo $this->string->getValue();
     }
+}
+
+
+class String
+{
+    private $value;
+
+    public function __construct($value)
+    {
+        $this->value = $value;
+    }
+
+    public function getValue()
+    {
+        return $this->value;
+    }
+
 }
