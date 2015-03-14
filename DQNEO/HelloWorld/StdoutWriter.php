@@ -1,7 +1,7 @@
 <?php
 namespace DQNEO\HelloWorld;
 
-class Writer implements WriterInterface
+class StdoutWriter implements WriterInterface
 {
     private $eol;
 
