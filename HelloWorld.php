@@ -10,7 +10,7 @@ class HelloWorld
     {
         $string = "hello world\n";
         $obj = new static($string);
-        $obj->say();
+        $obj->output();
     }
 
     public function __construct($string = null)
@@ -18,7 +18,7 @@ class HelloWorld
         $this->string = $string;
     }
 
-    public function say()
+    public function output()
     {
         echo $this->string;
     }
