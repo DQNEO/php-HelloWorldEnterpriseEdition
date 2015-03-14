@@ -1,8 +1,11 @@
 #!/usr/bin/env php
 <?php
-main();
+HelloWorld::main();
 
-function main()
-{    
-    echo "hello world\n";
+class HelloWorld
+{
+    public static function main()
+    {
+        echo "hello world\n";
+    }
 }
