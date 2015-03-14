@@ -2,4 +2,4 @@
 <?php
 require_once __DIR__ . '/HelloWorld.php';
 
-HelloWorld::main();
+\DQNEO\HelloWorld::main();

@@ -1,4 +1,6 @@
 <?php
+namespace DQNEO;
+
 class HelloWorld
 {
     public static function main()
