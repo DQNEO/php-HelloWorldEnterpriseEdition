@@ -8,7 +8,8 @@ class HelloWorld
 
     public static function main()
     {
-        $obj = new static();
+        $string = "hello world\n";
+        $obj = new static($string);
         $obj->say();
     }
 
@@ -19,7 +20,6 @@ class HelloWorld
 
     public function say()
     {
-        $string = "hello world\n";
-        echo $string;
+        echo $this->string;
     }
 }
