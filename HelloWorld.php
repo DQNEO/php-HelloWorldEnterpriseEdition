@@ -11,6 +11,7 @@ class HelloWorld
 
     public function say()
     {
-        echo "hello world\n";
+        $string = "hello world\n";
+        echo $string;
     }
 }
