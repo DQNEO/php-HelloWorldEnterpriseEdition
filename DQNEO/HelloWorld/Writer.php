@@ -3,6 +3,13 @@ namespace DQNEO\HelloWorld;
 
 class Writer
 {
+    private $eol;
+
+    public function __construct()
+    {
+        $this->eol = new String("\n");
+    }
+
     public function write(String $string)
     {
         echo $string->getValue();
@@ -11,7 +18,6 @@ class Writer
     public function writeLn(String $string)
     {
         $this->write($string);
-        $eol = new String("\n");
-        $this->write($eol);
+        $this->write($this->eol);
     }
 }
