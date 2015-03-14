@@ -1,5 +1,5 @@
 <?php
-namespace DQNEO;
+namespace DQNEO\HelloWorld;
 
 class String
 {
