@@ -11,6 +11,7 @@ class Writer
     public function writeLn(String $string)
     {
         $this->write($string);
-        echo "\n";
+        $eol = new String("\n");
+        $this->write($eol);
     }
 }
