@@ -7,7 +7,7 @@ class CLI
     {
         $string = new String("hello world");
         $writer = new Writer();
-        $obj = new HelloWorldApplication($string, $writer);
-        $obj->output();
+        $app = new HelloWorldApplication($string, $writer);
+        $app->run();
     }
 }

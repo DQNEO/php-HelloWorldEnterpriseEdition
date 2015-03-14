@@ -12,7 +12,7 @@ class HelloWorldApplication
         $this->writer = $writer;
     }
 
-    public function output()
+    public function run()
     {
         $this->writer->writeLn($this->string);
     }
