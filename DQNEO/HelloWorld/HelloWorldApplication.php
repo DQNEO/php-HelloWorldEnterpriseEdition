@@ -6,7 +6,7 @@ class HelloWorldApplication
     private $string;
     private $writer;
 
-    public function __construct(String $string, Writer $writer)
+    public function __construct(String $string, WriterInterface $writer)
     {
         $this->string = $string;
         $this->writer = $writer;
