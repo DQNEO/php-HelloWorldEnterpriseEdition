@@ -1,3 +1,8 @@
 #!/usr/bin/env php
 <?php
-echo "hello world\n";
+main();
+
+function main()
+{    
+    echo "hello world\n";
+}
