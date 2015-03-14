@@ -1,11 +1,5 @@
 #!/usr/bin/env php
 <?php
-HelloWorld::main();
+require_once __DIR__ . '/HelloWorld.php';
 
-class HelloWorld
-{
-    public static function main()
-    {
-        echo "hello world\n";
-    }
-}
+HelloWorld::main();
