@@ -1,7 +1,7 @@
 <?php
 namespace DQNEO\HelloWorld;
 
-class HelloWorld
+class HelloWorlder
 {
 
     private $string;
