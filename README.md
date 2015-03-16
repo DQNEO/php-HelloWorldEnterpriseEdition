@@ -7,6 +7,28 @@
 * php 5.4 or later
 * HHVM
 
+# INSTALL
+
+You can install this by composer.
+
+First, in your `composer.json`
+
+```json
+{
+  "require": {
+    "dqneo/helloworld-enterprise-edition": "dev-master"
+  }
+}
+```
+
+And then
+
+
+```shell
+$ composer install
+```
+
+
 # Usage
 
 ```
