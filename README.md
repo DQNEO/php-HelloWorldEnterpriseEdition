@@ -32,7 +32,8 @@ $ composer install
 # Usage
 
 ```
-$ ./helloworld
+$ ./vendor/bin/helloworld
+hello world
 ```
 
 # How to test
