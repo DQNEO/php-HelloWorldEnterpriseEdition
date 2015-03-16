@@ -1,6 +1,6 @@
 <?php
-use DQNEO\HelloWorld\ClassLoader;
+use DQNEO\HelloWorldEnterpriseEdition\ClassLoader;
 
-require_once __DIR__ . '/DQNEO/HelloWorld/ClassLoader.php';
+require_once __DIR__ . '/DQNEO/HelloWorldEnterpriseEdition/ClassLoader.php';
 
 ClassLoader::register();
