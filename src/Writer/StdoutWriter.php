@@ -1,6 +1,6 @@
 <?php
-namespace DQNEO\HelloWorld\Writer;
-use DQNEO\HelloWorld\String;
+namespace DQNEO\HelloWorldEnterpriseEdition\Writer;
+use DQNEO\HelloWorldEnterpriseEdition\String;
 
 class StdoutWriter implements WriterInterface
 {

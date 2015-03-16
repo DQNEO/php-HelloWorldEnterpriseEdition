@@ -1,7 +1,7 @@
 <?php
-use DQNEO\HelloWorld\HelloWorldApplication;
-use DQNEO\HelloWorld\String;
-use DQNEO\HelloWorld\Writer\WriterInterface;
+use DQNEO\HelloWorldEnterpriseEdition\HelloWorldApplication;
+use DQNEO\HelloWorldEnterpriseEdition\String;
+use DQNEO\HelloWorldEnterpriseEdition\Writer\WriterInterface;
 
 class MockWriter implements WriterInterface
 {
