@@ -13,6 +13,9 @@
   "bin" : [
     "helloworld"
   ],
+  "config": {
+    "bin-dir": "bin"
+  },
   "autoload": {
     "psr-4": {
       "DQNEO\\HelloWorldEnterpriseEdition\\": "src/"
