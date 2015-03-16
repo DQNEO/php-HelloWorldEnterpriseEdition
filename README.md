@@ -7,6 +7,12 @@
 * php 5.4 or later
 * HHVM
 
+# Usage
+
+```
+$ ./helloworld
+```
+
 # How to test
 
 ```
