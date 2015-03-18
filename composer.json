@@ -2,7 +2,7 @@
   "name":"dqneo/helloworld-enterprise-edition",
   "description": "Hello Wolrd Enterprise Edition",
   "type": "application",
-  "keywords": [ "hello world"],
+  "keywords": [ "hello world", "helloworld"],
   "authors": [
         { "name": "DQNEO", "role" : "Administrator"}
   ],
