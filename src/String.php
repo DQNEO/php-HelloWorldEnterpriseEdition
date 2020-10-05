@@ -17,4 +17,11 @@ class String
         return $this->value;
     }
 
+    /**
+     * @return string
+     */
+    public function __toString()
+    {
+        return $this->getValue();
+    }
 }
